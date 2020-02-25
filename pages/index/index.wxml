@@ -1,5 +1,3 @@
-<!--index.wxml-->
-<view class="title">英雄列表</view>
 <view class="list">
   <view data-id="{{item.id}}" bindtap="toDetial" wx:for="{{heroList}}" wx:key="heroName">
     <image src="{{item.iconUrl}}"></image>

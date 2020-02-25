@@ -1,3 +1,5 @@
 {
-  "navigationStyle": "custom"
+  "navigationBarBackgroundColor": "#354559",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "英雄列表"
 }
