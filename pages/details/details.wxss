@@ -1,0 +1,61 @@
+/* pages/details/details.wxss */
+page {
+  background-color: #363636;
+}
+
+.img {
+  width: 100%;
+}
+
+.img image {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  margin: 24rpx;
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.detail {
+  flex: 1;
+  padding: 0 20rpx;
+}
+
+.detail .name {
+  margin: 24rpx 0;
+  font-size: 36rpx;
+}
+
+.detail .tags-list {
+  display: flex;
+  margin-bottom: 36rpx;
+}
+
+.tags-list .tag {
+  background-color: #00a081;
+  width: 60rpx;
+  height: 44rpx;
+  border-radius: 8rpx;
+  line-height: 44rpx;
+  text-align: center;
+  margin-right: 8rpx;
+}
+
+.Ability-list .Ability {
+  display: flex;
+}
+
+.Ability text {
+  margin-right: 16rpx;
+}
+
+.Ability progress {
+  flex: 1;
+}
+
+.story {
+  flex: 1;
+}
+

@@ -1,0 +1,25 @@
+/**index.wxss**/
+.title {
+  position: sticky;
+  top: 0;
+  padding: 36rpx 0 0 36rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #fff;
+  background-color: #354559;
+}
+
+.list {
+  display: grid;
+  font-size: 24rpx;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+.list image {
+  display: block;
+  margin-top: 20rpx;
+  width: 176rpx;
+  height: 176rpx;
+}
